@@ -17,5 +17,7 @@ const rootReducer = (state = initState, action) => {
 export default rootReducer;
 /*
 rootReducer
-The first time state runs it doesn't have a value. This is why we make a default set to initState.  
-filter => is non destructive. If it's the same it's kept if not it's removed. We assign it to newPosts. */
+The first time state runs it doesn't have a value. 
+This is why we make default set to initState.  
+filter => is non destructive. 
+If it's the same it's kept if not it's removed. We assign it to newPosts. */

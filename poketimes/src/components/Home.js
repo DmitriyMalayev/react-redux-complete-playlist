@@ -46,4 +46,6 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps)(Home);
 
-//connect is a function that returns a higher order component that is then wrapping the Home Component.  We need to be able to retrieve data from the store. If a Component wants access to the store, we take some data from the store and we map that data to the props of our component. When we connect to redux it knows what data it wants to grab from redux (state.posts) and the property we want to create from our props object (posts) to apply that data to.
+//connect is a function that returns a higher order component that is then wrapping the Home Component.  We need to be able to retrieve data from the store. 
+//If a Component wants access to the store, we take some data from the store and we map that data to the props of our component.
+//When we connect to redux, it knows what data it wants to grab from redux(state.posts) and the property we want to create from our props object(posts) to apply that data to.
